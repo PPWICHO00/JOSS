@@ -4,34 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>PARA MI JOSSI</title>
-    <!-- Enlace a fuentes de Google -->
+
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Pinyon+Script&family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
-    <!-- Enlace al archivo CSS -->
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <canvas id="lienzo-nieve"></canvas>
 
-    <!-- Botón de música -->
+
     <div class="control-musica" id="boton-musica" title="Pausar/Reproducir">♫</div>
 
-    <!-- Elemento de Audio Oculto -->
+
     <audio id="reproductor-audio" loop>
         <source src="home.mp3" type="audio/mp3">
         Tu navegador no soporta audio.
     </audio>
 
-    <!-- PANTALLA 1: Login (Sobre Medieval) -->
+  
     <div id="contenedor-login">
         <div class="sobre-medieval">
-            <!-- Solapas -->
+            
             <div class="solapa-izquierda"></div>
             <div class="solapa-derecha"></div>
             <div class="solapa-inferior"></div>
             <div class="solapa-superior" id="solapa-top"></div>
 
-            <!-- Interfaz -->
             <div class="interfaz-sobre">
                 <input type="text" id="entrada-clave" placeholder="" autocomplete="off">
                 <button class="boton-lacre" id="boton-abrir">⚜</button>
@@ -39,10 +38,9 @@
         </div>
     </div>
 
-    <!-- PANTALLA 2: La Carta (Pergamino) -->
     <div id="contenedor-carta">
         <div class="pergamino" id="pergamino">
-            <!-- Marcos Decorativos -->
+            
             <div class="esquina top-left"></div>
             <div class="esquina top-right"></div>
             <div class="esquina bottom-left"></div>
@@ -64,27 +62,25 @@
 
                 <div class="firma-real">FELIZ NAVIDAD 💜</div>
 
-                <!-- Ilustración SVG: Árbol y Regalos -->
+         
                 <div class="escena-navidad">
                     <svg class="svg-navidad" viewBox="0 0 200 100" preserveAspectRatio="xMidYBottom">
-                        <!-- Regalo Izquierda -->
+       
                         <rect x="40" y="70" width="25" height="25" class="regalo-caja" fill="#9333ea" />
                         <rect x="50" y="70" width="5" height="25" class="regalo-lazo" />
                         <rect x="40" y="80" width="25" height="5" class="regalo-lazo" />
                         
-                        <!-- Regalo Derecha -->
                         <rect x="135" y="75" width="20" height="20" class="regalo-caja" fill="#be185d" />
                         <rect x="143" y="75" width="4" height="20" class="regalo-lazo" />
                         
-                        <!-- Árbol -->
+                   
                         <polygon points="100,10 70,95 130,95" class="arbol-capa" />
                         <polygon points="100,10 80,60 120,60" class="arbol-capa" fill="#4d7c0f" />
                         <polygon points="100,10 90,35 110,35" class="arbol-capa" fill="#65a30d" />
                         
-                        <!-- Estrella -->
+                   
                         <path class="estrella" d="M100 0 L103 7 L110 7 L105 12 L107 19 L100 15 L93 19 L95 12 L90 7 L97 7 Z" />
 
-                        <!-- Adornos -->
                         <circle cx="90" cy="80" r="3" class="arbol-adorno" style="animation-delay:0s"/>
                         <circle cx="110" cy="70" r="3" class="arbol-adorno" style="fill:#fbbf24; animation-delay:0.5s"/>
                         <circle cx="100" cy="50" r="3" class="arbol-adorno" style="fill:#3b82f6; animation-delay:1s"/>
@@ -95,7 +91,8 @@
         </div>
     </div>
 
-    <!-- Enlace al archivo JavaScript -->
+ 
     <script src="script.js"></script>
 </body>
 </html>
+
